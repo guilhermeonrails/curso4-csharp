@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "t+YWe95cJ9QFXy7Mo1Msxlpwmf0U4CdBq20AxvpuO3zfTP0wlJdHBkhqA9hK5VxzeO8egaIt1sdg4BjXHaZHDg==",
+  "success": true,
+  "projectFilePath": "/Users/guilhermelima/Projects/screensound-04/screensound-04.csproj",
+  "expectedPackageFiles": [
+    "/Users/guilhermelima/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

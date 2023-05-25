@@ -1,0 +1,17 @@
+/Users/guilhermelima/Projects/screensound-04/bin/Debug/net7.0/screensound-04
+/Users/guilhermelima/Projects/screensound-04/bin/Debug/net7.0/screensound-04.deps.json
+/Users/guilhermelima/Projects/screensound-04/bin/Debug/net7.0/screensound-04.runtimeconfig.json
+/Users/guilhermelima/Projects/screensound-04/bin/Debug/net7.0/screensound-04.dll
+/Users/guilhermelima/Projects/screensound-04/bin/Debug/net7.0/screensound-04.pdb
+/Users/guilhermelima/Projects/screensound-04/obj/Debug/net7.0/screensound-04.csproj.AssemblyReference.cache
+/Users/guilhermelima/Projects/screensound-04/obj/Debug/net7.0/screensound-04.GeneratedMSBuildEditorConfig.editorconfig
+/Users/guilhermelima/Projects/screensound-04/obj/Debug/net7.0/screensound-04.AssemblyInfoInputs.cache
+/Users/guilhermelima/Projects/screensound-04/obj/Debug/net7.0/screensound-04.AssemblyInfo.cs
+/Users/guilhermelima/Projects/screensound-04/obj/Debug/net7.0/screensound-04.csproj.CoreCompileInputs.cache
+/Users/guilhermelima/Projects/screensound-04/obj/Debug/net7.0/screensound-04.dll
+/Users/guilhermelima/Projects/screensound-04/obj/Debug/net7.0/refint/screensound-04.dll
+/Users/guilhermelima/Projects/screensound-04/obj/Debug/net7.0/screensound-04.pdb
+/Users/guilhermelima/Projects/screensound-04/obj/Debug/net7.0/screensound-04.genruntimeconfig.cache
+/Users/guilhermelima/Projects/screensound-04/obj/Debug/net7.0/ref/screensound-04.dll
+/Users/guilhermelima/Projects/screensound-04/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/guilhermelima/Projects/screensound-04/obj/Debug/net7.0/screensound-04.csproj.CopyComplete
