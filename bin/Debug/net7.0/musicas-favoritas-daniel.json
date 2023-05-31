@@ -1,0 +1,57 @@
+{ "nome": "daniel", "musicas": [
+  {
+    "Artist": "Jason Aldean",
+    "Song": "Big Green Tractor",
+    "Duration_ms": 204200,
+    "Explicit": false,
+    "Year": 2009,
+    "Popularity": 50,
+    "Key": 4,
+    "Tempo": 137.077,
+    "Genre": "country"
+  },
+  {
+    "Artist": "Drake",
+    "Song": "One Dance",
+    "Duration_ms": 173986,
+    "Explicit": false,
+    "Year": 2016,
+    "Popularity": 84,
+    "Key": 1,
+    "Tempo": 103.967,
+    "Genre": "hip hop, pop, R&B"
+  },
+  {
+    "Artist": "Destiny's Child",
+    "Song": "Say My Name",
+    "Duration_ms": 271333,
+    "Explicit": false,
+    "Year": 1999,
+    "Popularity": 75,
+    "Key": 5,
+    "Tempo": 138.009,
+    "Genre": "pop, R&B"
+  },
+  {
+    "Artist": "Janet Jackson",
+    "Song": "All For You",
+    "Duration_ms": 329933,
+    "Explicit": false,
+    "Year": 2001,
+    "Popularity": 65,
+    "Key": 2,
+    "Tempo": 113.525,
+    "Genre": "pop, R&B"
+  },
+  {
+    "Artist": "Guy Sebastian",
+    "Song": "Battle Scars (feat. Lupe Fiasco)",
+    "Duration_ms": 250080,
+    "Explicit": false,
+    "Year": 2012,
+    "Popularity": 0,
+    "Key": 5,
+    "Tempo": 83.993,
+    "Genre": "pop"
+  }
+] }

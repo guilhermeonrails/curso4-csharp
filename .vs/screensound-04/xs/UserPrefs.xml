@@ -1,4 +1,27 @@
-﻿<Properties StartupConfiguration="{44FE7D12-DDBD-4829-95CA-82A54C84C248}|Default">
-  <MultiItemStartupConfigurations />
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{44FE7D12-DDBD-4829-95CA-82A54C84C248}|Default">
   <MonoDevelop.Ide.ItemProperties.screensound-04 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/MusicasFavoritas.cs">
+    <Files>
+      <File FileName="Models/MusicasFavoritas.cs" Line="37" Column="31" />
+      <File FileName="Program.cs" Line="26" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="screensound-04" expanded="True">
+            <Node name="screensound-04" expanded="True">
+              <Node name="Filtros" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="MusicasFavoritas.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
 </Properties>

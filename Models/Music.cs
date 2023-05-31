@@ -3,6 +3,7 @@ namespace screensound_04.Models
 {
 	public class Music
 	{
+        //[XML]
         public string? Artist { get; set; }
         public string? Song { get; set; }
         public int Duration_ms { get; set; }
@@ -17,7 +18,7 @@ namespace screensound_04.Models
         {
             Console.WriteLine($"Artista: {Artist}");
             Console.WriteLine($"Música: {Song}");
-            Console.WriteLine($"Duração em minutos: {Duration_ms / 1000}");
+            Console.WriteLine($"Duração em segundos: {Duration_ms / 1000}");
             Console.WriteLine($"18+: {Explicit}");
             Console.WriteLine($"Ano: {Year}");
             Console.WriteLine($"Popularidade: {Popularity}");

@@ -13,8 +13,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="Models\" />
+    <None Remove="Filtros\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
+    <Folder Include="Filtros\" />
   </ItemGroup>
 </Project>
