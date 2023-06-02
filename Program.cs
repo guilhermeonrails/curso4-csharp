@@ -1,27 +1,33 @@
-﻿using Newtonsoft.Json;
-using screensound_04.Models;
+﻿using screensound_04.Models;
 using screensound_04.Filtros;
+using System.Text.Json;
 
 using (HttpClient client = new HttpClient())
 {
     try
     {
-        HttpResponseMessage res = await client.GetAsync("https://guilhermeonrails.github.io/api-csharp-songs/songs.json");
-        res.EnsureSuccessStatusCode();
-        string resBody = await res.Content.ReadAsStringAsync();
-        var songs = JsonConvert.DeserializeObject<List<Music>>(resBody)!;
+        string json = await client.GetStringAsync("https://guilhermeonrails.github.io/api-csharp-songs/songs.json");
+        var songs = JsonSerializer.Deserialize<List<Music>>(json)!;
+        Console.WriteLine();
+
+        //LinqFilter.FilterAllGenres(songs);
+
+        //Console.WriteLine(songs.Count);
+        //songs[1].ShowDetail();
+
+        //var songs = JsonConvert.DeserializeObject<List<Music>>(resBody)!;
         //LinqFilter.FilterSongsByArtist(songs, "Kanye West");
-        //LinqFilter.FilterSongsByGenre(songs, "hip hop");
+        LinqFilter.FilterSongsByGenre(songs, "rock");
         //LinqFilter.FilterArtistsByGenre(songs, "hip hop");
         //LinqSort.ExibirListaDeArtistasOrdenados(songs);
 
-        var musicasFavoritasDoGuilherme = new MusicasFavoritas("daniel");
-        musicasFavoritasDoGuilherme.AdicionarMusicaFavorita(songs[181]);
-        musicasFavoritasDoGuilherme.AdicionarMusicaFavorita(songs[1220]);
-        musicasFavoritasDoGuilherme.AdicionarMusicaFavorita(songs[1432]);
-        musicasFavoritasDoGuilherme.AdicionarMusicaFavorita(songs[61]);
-        musicasFavoritasDoGuilherme.AdicionarMusicaFavorita(songs[142]);
-        musicasFavoritasDoGuilherme.GerarDocumentoJsonComAsMusicasFavoritas();
+        //var musicasFavoritasDoGuilherme = new MusicasFavoritas("gui");
+        //musicasFavoritasDoGuilherme.AdicionarMusicaFavorita(songs[1415]);
+        //musicasFavoritasDoGuilherme.AdicionarMusicaFavorita(songs[18]);
+        //musicasFavoritasDoGuilherme.AdicionarMusicaFavorita(songs[25]);
+        //musicasFavoritasDoGuilherme.AdicionarMusicaFavorita(songs[33]);
+        //musicasFavoritasDoGuilherme.AdicionarMusicaFavorita(songs[30]);
+        //musicasFavoritasDoGuilherme.GerarDocumentoJsonComAsMusicasFavoritas();
         
     }
     catch ( Exception ex)

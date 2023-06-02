@@ -36,6 +36,17 @@ namespace screensound_04.Filtros
                 Console.WriteLine($"- {artist}");
             }
         }
+
+		public static void FilterAllGenres(List<Music> songs)
+		{
+			var allGenres = songs.Select(s => s.Genre).Distinct().ToList();
+			Console.WriteLine("Todos os gêneros musicais");
+
+			foreach (var genero in allGenres)
+			{
+				Console.WriteLine($"- {genero}");
+			}
+        }
     }
 }
 
