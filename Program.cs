@@ -8,16 +8,15 @@ using (HttpClient client = new HttpClient())
     {
         string json = await client.GetStringAsync("https://guilhermeonrails.github.io/api-csharp-songs/songs.json");
         var songs = JsonSerializer.Deserialize<List<Music>>(json)!;
-        Console.WriteLine();
 
-        //LinqFilter.FilterAllGenres(songs);
+        songs[799].ShowDetail();
 
         //Console.WriteLine(songs.Count);
-        //songs[1].ShowDetail();
 
+        //LinqFilter.FilterAllGenres(songs);
         //var songs = JsonConvert.DeserializeObject<List<Music>>(resBody)!;
         //LinqFilter.FilterSongsByArtist(songs, "Kanye West");
-        LinqFilter.FilterSongsByGenre(songs, "rock");
+        //LinqFilter.FilterSongsByGenre(songs, "rock");
         //LinqFilter.FilterArtistsByGenre(songs, "hip hop");
         //LinqSort.ExibirListaDeArtistasOrdenados(songs);
 
@@ -28,7 +27,7 @@ using (HttpClient client = new HttpClient())
         //musicasFavoritasDoGuilherme.AdicionarMusicaFavorita(songs[33]);
         //musicasFavoritasDoGuilherme.AdicionarMusicaFavorita(songs[30]);
         //musicasFavoritasDoGuilherme.GerarDocumentoJsonComAsMusicasFavoritas();
-        
+
     }
     catch ( Exception ex)
     {
